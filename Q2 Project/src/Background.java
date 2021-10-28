@@ -9,7 +9,7 @@ import java.net.URL;
 
 public class Background{
 	
-	//add location attributes
+	//image related variables
 	private Image img; 	
 	private AffineTransform tx;
 
@@ -21,6 +21,14 @@ public class Background{
 	}
 
 	
+	/* update variables here */
+	private void update() {
+
+		
+		
+	}
+	
+	/* Drawing commands */
 	public void paint(Graphics g) {
 		//these are the 2 lines of code needed draw an image on the screen
 		Graphics2D g2 = (Graphics2D) g;
@@ -37,12 +45,7 @@ public class Background{
 		
 
 	}
-	/* update the picture variable location */
-	private void update() {
 
-		
-		
-	}
 	
 	private void init(double a, double b) {
 		tx.setToTranslation(a, b);
