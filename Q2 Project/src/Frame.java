@@ -16,7 +16,7 @@ import javax.swing.Timer;
 public class Frame extends JPanel implements ActionListener, MouseListener, KeyListener {
 	
 	//CREATE THE OBJECT (STEP 1)
-	Background 	bg 	= new Background(0, 0);
+	private Background bg = new Background(0, 0);
 
 
 	public void paint(Graphics g) {
